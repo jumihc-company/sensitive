@@ -1,0 +1,26 @@
+{
+    "name": "jmhc/sensitive",
+    "description": "Filter sensitive words based on determination of Finite Automata (DFA) algorithm.",
+    "keywords": [
+        "jmhc",
+        "sensitive",
+        "DFA"
+    ],
+    "homepage": "http://jumihc.com/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jumihc",
+            "email": "jumihuchuang@126.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Jmhc\\Sensitive\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.2",
+        "lustre/php-dfa-sensitive": "^1.0"
+    }
+}
